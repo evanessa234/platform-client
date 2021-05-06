@@ -21,7 +21,8 @@
     "eslint": "gulp eslint",
     "eslintfix": "gulp eslintfix",
     "verify": "gulp verify",
-    "languages": "gulp languages"
+    "languages": "gulp languages",
+    "bundle:report": "source-map-explorer server/www/*.js"
   },
   "pre-commit": [
     "eslint"
@@ -130,6 +131,7 @@
     "raven-js": "^3.26.3",
     "socket.io-client": "2.0.3",
     "sortablejs": "1.10.0",
+    "source-map-explorer": "^2.5.2",
     "underscore": "^1.7.0",
     "ushahidi-platform-pattern-library": "4.4.9",
     "ushahidi-platform-sdk": "^0.5.0"
